@@ -1,0 +1,125 @@
+{
+    "intents":[
+        {
+            "tag": "saludo",
+            "patterns": ["Hola", "Buenos días", "Buenas tardes", "Buenas noches"],
+            "responses": ["Hola, ¿cómo puedo ayudarte?", "Hola, ¿en qué necesitas ayuda?"]
+        },
+        {
+            "tag": "saludo_2",
+            "patterns":["qué tal?", "Como estas?", "Como te va?"],
+            "responses":["Me siento bien, ¿en qué puedo ayudarte", "Muy bien, ¿necesitas ayuda en algo?"]
+        },
+        {
+            "tag": "despedida",
+            "patterns":["Adiós", "Hablamos", "Hasta luego", "Nos vemos cuídate"],
+            "responses":["Nos vemos, cuídate", "Hasta luego!", "Espero volver a vernos, adiós :)"]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns":["Gracias", "Muchas gracias", "Gracias por la ayuda"],
+            "responses":["No hay de qué, si necesitas algo más, no dudes en pedirlo",
+                        "De nada, es un placer ayudar"]
+        },
+        {
+            "tag": "tipos_de_proyecto",
+            "patterns":["Cuales son los tipos de proyectos de investigación?", 
+                        "Dime los tipos de proyectos de investigación", "Tipos de proyectos de investigacion"],
+            "responses":["Los tipos de proyecto de investigación son: Proyecto productivo, proyecto innovador, proyecto de Investigación Básica, Proyecto de Investigación Aplicada, el Proyecto social, la Investigación exploratoria, la investigación descriptiva, la investigación  correlacional, la investigación experimental, la investigacion cuasiexperimental, la investigación acción y la investigación participativa"]
+        },
+        {
+            "tag" : "proyecto_productivo",
+            "patterns":["que es el proyecto productivo?", "Hablame acerca del proyecto productivo", 
+                        "explicame qué es el proyecto productivo", "De qué trata el proyecto productivo?"],
+            "responses":["Este tipo de proyecto está orientado a la producción o fabricación de bienes o servicios. Su objetivo principal es obtener un beneficio económico a través de la venta de los productos o servicios generados.",
+                        "Un proyecto productivo es una iniciativa organizada para crear bienes o servicios, generando beneficios económicos mediante procesos eficientes y sostenibles.",
+                        "Un proyecto productivo es una estrategia de desarrollo comunitario que mejora las condiciones de vida, promoviendo la autosuficiencia y el uso sostenible de recursos locales."]
+        },
+        {
+            "tag": "proyecto_innovador",
+            "patterns":["que es el proyecto innovador?", "Hablame acerca del proyecto innovador", 
+                        "explicame qué es el proyecto innovador", "De qué trata el proyecto innovador?"],
+            "responses":["Un proyecto innovador es una iniciativa que introduce nuevas ideas, métodos o tecnologías, mejorando significativamente procesos, productos o servicios existentes.",
+                        "Un proyecto innovador es una estrategia que busca soluciones creativas y efectivas para problemas sociales, promoviendo cambios positivos y sostenibles en la comunidad.",
+                        "Un proyecto innovador es una empresa o iniciativa que desarrolla y aplica novedades que diferencian sus productos o servicios en el mercado, generando ventaja competitiva y crecimiento."]            
+        },
+        {
+            "tag": "investigación_basica",
+            "patterns":["que es el proyecto de investigacion basica?", "Hablame acerca del proyecto de investigacion basica", 
+                        "explicame qué es el proyecto de investigacion basica", "De qué trata el proyecto de investigacion basica?"],
+            "responses":["Un proyecto de investigación básica es una iniciativa que busca ampliar el conocimiento fundamental sobre fenómenos naturales o sociales sin un objetivo práctico inmediato.", 
+                        "Un proyecto de investigación básica es un estudio destinado a comprender principios y teorías subyacentes en diversas disciplinas, contribuyendo al desarrollo del conocimiento científico.",
+                        "Un proyecto de investigación básica es una investigación orientada a descubrir nuevos conocimientos y entender mejor los mecanismos y leyes que rigen el universo, sin enfoque en aplicaciones prácticas inmediatas."]
+        },
+        {
+            "tag": "investigación_aplicada",
+            "patterns": ["que es el proyecto de investigacion aplicada?", "Hablame acerca del proyecto de investigacion aplicada", 
+            "explicame qué es el proyecto de investigacion aplicada", "De qué trata el proyecto de investigacion aplicada?"],
+            "responses":["Un proyecto de investigación aplicada es una iniciativa que utiliza conocimientos científicos para resolver problemas prácticos y mejorar procesos, productos o tecnologías existentes.",
+                        "Un proyecto de investigación aplicada es un estudio enfocado en desarrollar soluciones concretas y efectivas para desafíos específicos en la industria o el mercado, mejorando la competitividad y eficiencia.",
+                        "Un proyecto de investigación aplicada es una estrategia que emplea conocimientos teóricos para abordar y resolver problemas sociales o comunitarios, promoviendo el bienestar y desarrollo sostenible."]
+        },
+        {
+            "tag": "proyecto_social",
+            "patterns":["que es el proyecto social?", "Hablame acerca del proyecto social", 
+                        "explicame qué es el proyecto social", "De qué trata el proyecto social?"],
+            "responses":["Un proyecto social es una iniciativa que busca mejorar la calidad de vida de una comunidad mediante la implementación de acciones que abordan necesidades y problemas específicos.",
+                        "Un proyecto social es un esfuerzo organizado por entidades públicas, privadas o sin fines de lucro destinado a promover el bienestar social, la inclusión y la equidad.",
+                        "Un proyecto social es una intervención planificada que tiene como objetivo generar cambios positivos y sostenibles en áreas como la educación, salud, empleo y vivienda, beneficiando a grupos vulnerables."]
+        },
+        {
+            "tag": "investigación_exploratoria",
+            "patterns":["que es el proyecto de investigacion exploratoria?", "Hablame acerca del proyecto de investigacion exploratoria", 
+            "explicame qué es el proyecto de investigacion exploratoria", "De qué trata el proyecto de investigacion exploratoria?"],
+            "responses":["Un proyecto de investigación exploratoria es un estudio inicial diseñado para investigar áreas poco conocidas o comprendidas, estableciendo una base de conocimiento y formulando hipótesis para investigaciones futuras.",
+                        "Un proyecto de investigación exploratoria es una investigación preliminar que busca identificar patrones, relaciones y variables clave en un campo de estudio, sin expectativas de resultados definitivos.",
+                        "Un proyecto de investigación exploratoria es una iniciativa que explora nuevas ideas y conceptos, recolectando datos y generando preguntas que guiarán estudios más detallados y específicos."]
+        },
+        {
+            "tag": "investigación_descriptiva",
+            "patterns":["que es el proyecto de investigacion descriptiva?", "Hablame acerca del proyecto de investigacion descriptiva", 
+            "explicame qué es el proyecto de investigacion descriptiva", "De qué trata el proyecto de investigacion descriptiva?"],
+            "responses":["Un proyecto de investigación descriptiva es un estudio que se enfoca en observar, describir y documentar aspectos de una situación o fenómeno, sin manipular variables.",
+                        "Un proyecto de investigación descriptiva es una investigación que recoge y presenta datos detallados sobre características, comportamientos o eventos, proporcionando un panorama claro de lo estudiado.",
+                        "Un proyecto de investigación descriptiva es una iniciativa que analiza y reporta cómo son las cosas en un momento específico, basándose en observaciones y datos recopilados sistemáticamente."]
+        },
+        {
+            "tag": "investigacion_correlacional",
+            "patterns":["que es el proyecto de investigacion correlacional?", "Hablame acerca del proyecto de investigacion correlacional", 
+            "explicame qué es el proyecto de investigacion correlacional", "De qué trata el proyecto de investigacion correlacional?"],
+            "responses":[]
+        },
+        {
+            "tag":"investigacion_experimental",
+            "patterns":["que es el proyecto de investigacion experimental?", "Hablame acerca del proyecto de investigacion base experimental", 
+            "explicame qué es el proyecto de investigacion experimental", "De qué trata el proyecto de investigacion experimental?"],
+            "responses":["Un proyecto de investigación correlacional es un estudio que examina la relación entre dos o más variables, determinando si y cómo varían juntas.",
+                        "Un proyecto de investigación correlacional es una investigación que busca identificar y medir el grado de asociación entre diferentes factores, sin establecer causalidad directa.",
+                        "Un proyecto de investigación correlacional es una iniciativa que analiza la conexión y el patrón de co-variación entre variables, utilizando métodos estadísticos para evaluar la fuerza y dirección de estas relaciones."]
+        },
+        {
+            "tag": "investigacion_cuasiexperimental",
+            "patterns":["que es el proyecto de investigacion cuasiexperimental?", "Hablame acerca del proyecto de investigacion cuasiexperimental", 
+            "explicame qué es el proyecto de investigacion cuasiexperimental", "De qué trata el proyecto de investigacion cuasiexperimental?"],
+            "responses":["Un proyecto de investigación cuasiexperimental es un estudio que examina las relaciones de causa y efecto entre variables, utilizando grupos de comparación sin asignación aleatoria completa.",
+                        "Un proyecto de investigación cuasiexperimental es una investigación que busca inferir causalidad entre variables en situaciones donde no es posible controlar todos los factores ni asignar aleatoriamente a los sujetos.",
+                        "Un proyecto de investigación cuasiexperimental es una iniciativa que evalúa el impacto de una intervención o tratamiento, comparando grupos preexistentes y aplicando controles parciales para minimizar sesgos y confusiones."]
+        },
+        {
+            "tag": "investigación_acción",
+            "patterns":["que es el proyecto de investigacion acción?", "Hablame acerca del proyecto de investigacion acción", 
+            "explicame qué es el proyecto de investigacion acción", "De qué trata el proyecto de investigacion acción?"],
+            "responses":["Un proyecto de investigación-acción es un estudio colaborativo que involucra a los investigadores y participantes en la identificación de problemas y la implementación de soluciones prácticas, con el fin de mejorar situaciones específicas.",
+                        "Un proyecto de investigación-acción es una investigación que combina la recolección de datos y la intervención directa, permitiendo que los resultados obtenidos se utilicen para efectuar cambios inmediatos y evaluarlos continuamente.",
+                        "Un proyecto de investigación-acción es una iniciativa que integra el proceso de investigación y acción social, enfocándose en resolver problemas prácticos a través de ciclos de planificación, acción, observación y reflexión participativa."]
+        },
+        {
+            "tag": "investigación participativa",
+            "patterns":["que es el proyecto de investigacion participativa?", "Hablame acerca del proyecto de investigacion participativa", 
+            "explicame qué es el proyecto de investigacion participativa", "De qué trata el proyecto de investigacion participativa?"],
+            "responses":["Un proyecto de investigación participativa es un estudio en el que los investigadores y los miembros de la comunidad colaboran en todas las etapas del proceso investigativo para abordar problemas relevantes y generar conocimientos útiles.",
+                        "Un proyecto de investigación participativa es una iniciativa en la que la comunidad afectada se involucra activamente en la identificación de problemas, la recolección de datos y la implementación de soluciones, promoviendo la democratización del conocimiento y la acción social.",
+                        "Un proyecto de investigación participativa es una investigación colaborativa que involucra a los participantes como co-investigadores, asegurando que sus perspectivas y experiencias informen y guíen el desarrollo y la aplicación de la investigación."]
+        }
+    ]
+}
